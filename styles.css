@@ -18,6 +18,14 @@ body {
     padding: 0 20px;
 }
 
+.container2 {
+    max-width: 700px;
+
+    margin: 10px auto;
+    padding: 0 20px;
+}
+
+
 /* Navigation Bar */
 .navbar {
     background-color: black;
@@ -37,6 +45,14 @@ body {
     font-weight: bold;
     text-transform: uppercase;
 }
+.navbar .container img {
+    width: 250px;
+    height: 100px;
+
+}
+ 
+
+
 
 .nav-links li {
     display: inline;
@@ -129,7 +145,7 @@ body {
 
 .course-card .btn {
     display: inline-block;
-    padding: 10px 12px;
+    padding: 20px 15px;
     background-color:#0BA34E;
     color: #fff;
     text-decoration: none;
@@ -141,6 +157,7 @@ body {
 /* Container Styles */
 .ai-ml-container {
     display: flex;
+    font-size: 50px;
     justify-content: center;
     align-items: center;
     background-color: #f0f0f0;
@@ -151,7 +168,7 @@ body {
 
 /* Button Styles */
 .ai-ml-button {
-    padding: 10px 20px;
+    padding: 20px 20px;
     margin: 0 10px;
     background-color: #0078d4;
     color: #fff;
@@ -198,7 +215,7 @@ body {
 }
 
 .close {
-    color:black;
+    color: black;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -286,4 +303,25 @@ body {
     background-color: #0BA34E;
 }
 
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
 
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0BA34E; /* Bottle green color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0BA34E; /* Darker shade of bottle green on hover */
+}
