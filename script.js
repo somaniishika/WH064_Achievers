@@ -11,16 +11,16 @@ function fetchFeaturedCourses() {
     // In a real-world scenario, you would fetch data from a server using AJAX or fetch API
     // For simplicity, we'll just mock some data here
     const courses = [
-        { title: "JavaScript Fundamentals", description: "Learn the basics of JavaScript programming." },
-        { title: "HTML & CSS Essentials", description: "Master the fundamentals of building web pages with HTML and CSS." },
-        { title: "React Crash Course", description: "Get started with React.js and build interactive user interfaces." }
+        { title: "Artificial Intelligence/Machine Learning", description: "Unlocking the potential of AI to drive efficiency, innovation, and growth." },
+        { title: "Web Development", description: "Master the fundamentals of building web pages with HTML and CSS." },
+        { title: "Data Analytics", description: "Turning raw data into actionable insights - that's our specialty." }
     ];
 
     // Get the container element where we'll append the course cards
-    const container = document.querySelector('.featured-courses .container');
+    const container2 = document.querySelector('.featured-courses .container2');
 
     // Clear any existing content in the container
-    container.innerHTML = '';
+    container2.innerHTML = '';
 
     // Loop through the courses and create a course card for each one
     courses.forEach(course => {
@@ -29,9 +29,9 @@ function fetchFeaturedCourses() {
         card.innerHTML = `
             <h3>${course.title}</h3>
             <p>${course.description}</p>
-            <a href="#" class="btn">Enroll Now</a>
+            <a href="#" class="btn">Beginners </a>  <a href="#" class="btn">Intermediate</a>  <a href="#" class="btn">Advanced</a>
         `;
-        container.appendChild(card);
+        container2.appendChild(card);
     });
 }
 
@@ -73,3 +73,36 @@ document.getElementById("explore-domain-btn").addEventListener("click", function
         domainList.style.display = "none";
     }
 });
+// script.js
+
+// Function to handle the click event on the "Enroll Now" button
+function enrollNow() {
+    // Specify the URL of your local page
+    var localPageURL = "http://127.0.0.1:5500/quiz/quiz.html";
+    
+
+
+    // Open the local page in a new tab/window
+    window.open(localPageURL, "_blank");
+}
+
+// Get the button element
+var enrollNowButton = document.getElementById("enrollNowButton");
+
+// Add event listener to the button
+enrollNowButton.addEventListener("click", enrollNow);
+function enrollNow() {
+    // Specify the URL of your local page
+    var localPageURL = "http://127.0.0.1:5500/quiz2/quiz2.html";
+    
+
+
+    // Open the local page in a new tab/window
+    window.open(localPageURL, "_blank");
+}
+
+// Get the button element
+var enrollNowButton = document.getElementById("enrollNowButton");
+
+// Add event listener to the button
+enrollNowButton.addEventListener("click", enrollNow);
