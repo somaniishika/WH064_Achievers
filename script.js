@@ -109,19 +109,19 @@ function enrollNow() {
 }
 
 // Get the button element
-var enrollNowButton = document.getElementById("enrollNowButton");
+//var enrollNowButton = document.getElementById("enrollNowButton");
 
 // Add event listener to the button
-enrollNowButton.addEventListener("click", enrollNow);
-function enrollNow() {
+//enrollNowButton.addEventListener("click", enrollNow);
+//function enrollNow() {
     // Specify the URL of your local page
-    var localPageURL = "http://127.0.0.1:5500/quiz2/quiz2.html";
+    // var localPageURL = "http://127.0.0.1:5500/quiz2/quiz2.html";
     
 
 
-    // Open the local page in a new tab/window
-    window.open(localPageURL, "_blank");
-}
+    // // Open the local page in a new tab/window
+    // window.open(localPageURL, "_blank");
+
 
 // Get the button element
 var enrollNowButton = document.getElementById("enrollNowButton");
