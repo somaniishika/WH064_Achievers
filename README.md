@@ -67,5 +67,9 @@ Knowify would like to acknowledge the following organizations for their support 
 
 - **WittyHacks 4.0**: Providing inspiration and resources for the development of this project.
 - **datacode.in**: Offering valuable insights and guidance throughout the project development process.
-  
 
+## Demo
+![Screenshot (7)](https://github.com/Wittyhacks4CR007/WH064_Achievers/assets/136316572/d2c56ae3-ee29-4058-89ff-916f4350e637)
+![Screenshot (8)](https://github.com/Wittyhacks4CR007/WH064_Achievers/assets/136316572/47799e06-71d6-4e7c-91dd-aa56661ba64a)
+![Screenshot (9)](https://github.com/Wittyhacks4CR007/WH064_Achievers/assets/136316572/9a3a85a7-50f7-4e83-b7cd-423b05d934ca)
+![Screenshot (10)](https://github.com/Wittyhacks4CR007/WH064_Achievers/assets/136316572/57cbeb17-2fef-40e8-a4b0-40b1d79776d6)
