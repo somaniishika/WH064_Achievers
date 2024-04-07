@@ -80,3 +80,10 @@ Knowify would like to acknowledge the following organizations for their support 
 ![WhatsApp Image 2024-04-07 at 6 56 12 AM](https://github.com/somaniishika/WH064_Achievers/assets/136316572/d9cc7575-6532-40f7-99c5-baa0383b2c43)
 ![WhatsApp Image 2024-04-07 at 6 56 12 AM](https://github.com/somaniishika/WH064_Achievers/assets/136316572/496374d7-86c8-4379-bd82-fc1699b4f263)
 
+
+## Team Members
+ACHIEVERS
+-Ishika Somani
+-Vanshika Maheshwari
+-Ishika Sadhwani
+-Vidhi Jaiswal
