@@ -7,7 +7,7 @@ function exploreCourses() {
 }
 
 // Function to fetch and display featured courses
-function fetchFeaturedCourses() {
+function fetchFeaturedCourses() {}
     // In a real-world scenario, you would fetch data from a server using AJAX or fetch API
     // For simplicity, we'll just mock some data here
     const courses = [
@@ -15,6 +15,28 @@ function fetchFeaturedCourses() {
         { title: "Web Development", description: "Master the fundamentals of building web pages with HTML and CSS." },
         { title: "Data Analytics", description: "Turning raw data into actionable insights - that's our specialty." }
     ];
+    const course = [
+        {
+            title: 'Course 1',
+            description: 'Description of Course 1',
+            links: {
+                beginners: [
+                    { title: 'Beginner Link 1', url: 'https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-artificial-intelligence' },
+                    { title: 'Beginner Link 2', url: 'https://example.com/beginner-link-2' }
+                ],
+                intermediate: [
+                    { title: 'Intermediate Link 1', url: 'https://example.com/intermediate-link-1' },
+                    { title: 'Intermediate Link 2', url: 'https://example.com/intermediate-link-2' }
+                ],
+                advanced: [
+                    { title: 'Advanced Link 1', url: 'https://example.com/advanced-link-1' },
+                    { title: 'Advanced Link 2', url: 'https://example.com/advanced-link-2' }
+                ]
+            }
+        }
+        // Add more courses here...
+    ];
+    
 
     // Get the container element where we'll append the course cards
     const container2 = document.querySelector('.featured-courses .container2');
@@ -23,17 +45,17 @@ function fetchFeaturedCourses() {
     container2.innerHTML = '';
 
     // Loop through the courses and create a course card for each one
-    courses.forEach(course => {
-        const card = document.createElement('div');
-        card.classList.add('course-card');
+  courses.forEach(course => {
+      const card = document.createElement('div');
+         card.classList.add('course-card');
         card.innerHTML = `
             <h3>${course.title}</h3>
-            <p>${course.description}</p>
-            <a href="#" class="btn">Beginners </a>  <a href="#" class="btn">Intermediate</a>  <a href="#" class="btn">Advanced</a>
-        `;
-        container2.appendChild(card);
-    });
-}
+          <p>${course.description}</p>
+             <a href="https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-artificial-intelligence" class="btn">Beginners </a>  <a href="https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-neural-networks-and-deep-learning" class="btn">Intermediate</a>  <a href="https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-neural-networks-and-deep-learning" class="btn">Advanced</a>
+         `;
+         container2.appendChild(card);
+     });
+ 
 
 // Call the fetchFeaturedCourses function when the page loads to display featured courses
 window.onload = function() {
