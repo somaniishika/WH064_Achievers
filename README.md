@@ -10,6 +10,8 @@ Knowify is a web application built with HTML, CSS, and JavaScript. It aims to pr
 - [Getting Started]
 - [Installation]
 - [Acknowledgments]
+- [Demo]
+- [Team Members]
 
 ## Introduction
 
@@ -73,3 +75,8 @@ Knowify would like to acknowledge the following organizations for their support 
 ![Screenshot (8)](https://github.com/Wittyhacks4CR007/WH064_Achievers/assets/136316572/47799e06-71d6-4e7c-91dd-aa56661ba64a)
 ![Screenshot (9)](https://github.com/Wittyhacks4CR007/WH064_Achievers/assets/136316572/9a3a85a7-50f7-4e83-b7cd-423b05d934ca)
 ![Screenshot (10)](https://github.com/Wittyhacks4CR007/WH064_Achievers/assets/136316572/57cbeb17-2fef-40e8-a4b0-40b1d79776d6)
+![WhatsApp Image 2024-04-07 at 6 54 35 AM](https://github.com/somaniishika/WH064_Achievers/assets/136316572/c21fe013-1140-4a5b-9f75-bc1ca7976dc2)
+![WhatsApp Image 2024-04-07 at 6 54 59 AM](https://github.com/somaniishika/WH064_Achievers/assets/136316572/5e0cf0d1-6a27-4bb8-840a-6a057e3015de)
+![WhatsApp Image 2024-04-07 at 6 56 12 AM](https://github.com/somaniishika/WH064_Achievers/assets/136316572/d9cc7575-6532-40f7-99c5-baa0383b2c43)
+![WhatsApp Image 2024-04-07 at 6 56 12 AM](https://github.com/somaniishika/WH064_Achievers/assets/136316572/496374d7-86c8-4379-bd82-fc1699b4f263)
+
