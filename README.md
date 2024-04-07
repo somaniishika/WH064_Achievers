@@ -13,7 +13,7 @@ Knowify is a web application built with HTML, CSS, and JavaScript. It aims to pr
 
 ## Introduction
 
-Learning new skills can be challenging, especially when trying to navigate through vast amounts of information available online. Knowify aims to simplify this process by offering personalized learning roadmaps tailored to each user's interests and proficiency levels. By utilizing an intuitive interface and interactive features, the website provides users with a guided learning experience, ultimately helping them achieve their learning goals more efFECTIVELY.
+Learning new skills can be challenging, especially when trying to navigate through vast amounts of information available online. Knowify aims to simplify this process by offering personalized learning roadmaps tailored to each user's interests and proficiency levels. By utilizing an intuitive interface and interactive features, the website provides users with a guided learning experience, ultimately helping them achieve their learning goals more effectively.
 
 ## Features
 ### 1. Personalized Learning Roadmaps
